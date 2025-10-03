@@ -1,0 +1,16 @@
+.episode ul {
+  display: grid;
+  gap: 1ch;
+  list-style-type: none;
+  padding: 0.25rem;
+}
+
+.episode li {
+  padding: 1ch;
+  border: 1px solid #ccc;
+}
+
+.episode li:hover {
+  cursor: pointer;
+  font-style: italic;
+}
